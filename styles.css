@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "notosans";
+    src: url("fonts/NotoSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ptssans";
+    src: url("fonts/PTSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: "ptssans";
+}
+/*Top*/
+.jumbotron {
+    position:relative;
+    overflow:hidden;
+  }
+  
+.jumbotron .container {
+    position:relative;
+    z-index:2;  
+    background:rgba(0,0,0,0.2);
+    padding:2rem;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+}
+  
+.jumbotron-background {
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+    position:absolute;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+}
+  
+img.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(5px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');  
+}
+.bg-dark {
+    --bs-bg-opacity: 0.3;
+}
+
+
+#button-newsletter{
+    background-color: #4e77e3;
+    color: white;
+}
+.imgB1 {
+    position: absolute;
+    height: 35%;
+    bottom: 50%;
+    right: 35%;
+    top: 4%;
+}  
+/*Fin del top*/
+
+/*Header*/
+#header{
+    background-color: #4e77e3;
+    font-family: "notosans";
+}
+#name-bazar{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+#navbarDropdown{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#usados{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#contacto{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#search{
+    margin-left: 35%;
+}
+#button-search{
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#products h2{
+    margin-left: 44%;    
+}
+#products h4{
+    color: rgb(61, 61, 61);
+    margin-left: 40%;    
+}
+
+/*Fin de header*/
+.item{                      /*Tamaño de los productos*/
+    height: 320px;
+}
+
+/*Productos*/
+#button {
+    background-color: #4e77e3;
+    border-color: #4e77e3;
+}
+#button-view{
+    background-color: #ececec;
+    border-color: #4e77e3;
+    margin-left: 10px;
+    color: black;
+}
+#rowcard .card{
+    padding-top: 10px;
+    border: 1px solid #ececec;
+}
+#rowcard .card:hover{
+    border: 1px solid #4e77e3;
+}
+
+#img-txt{
+    text-decoration: none;
+    font-family: "notosans";
+    color: rgb(56, 56, 56);
+    font-size: medium;
+    margin-left: 34%;
+}
+#img-price{
+    text-decoration: none;
+    font-family: "notosans";
+    font-size: 15px;
+    color: grey;
+    margin-left: 34%;
+}
+#price{
+    color: rgb(0, 0, 0);
+}
+/*Fin de productos*/
+
+/*Comienzo de aside bar*/
+aside{
+    font-family: "notosans";
+}
+aside h2{
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-bottom: 28px;
+}
+#card-aside{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #ececec;
+}
+#card-aside .card:hover{
+    border: 1px solid #4e77e3;
+}
+
+/*Fin de aside bar*/
+
+/*Footer
+#footer{
+    width: 100%;
+    height: 470px;
+    background: #4e77e3;
+    color: white;
+    overflow: hidden;
+}
+
+#footer .wrap > div{
+    float: left;
+    width: 320px;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+}
+#footer h5{
+    display: block;
+    background: #264697;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-size:bolder;
+    line-height: 55px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#footer ul{
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+}
+#footer ul li{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+#footer ul li a{
+    display: block;
+    height: 40px;
+    transition: all 300ms;
+}
+
+#footer ul li:hover a{
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+}
+
+
+#footer iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px grey;
+}
+
+#footer img{
+    margin-bottom: 15px;
+}
+#footer #browsers img{
+    width: 45px;
+}
+*/
+
+
+
+/*Fin de footer*/
+
+
+.lateral{
+    height: 550px;
+}
+.lateral > div{
+    height: 60px;
+}
+@media (max-width: 768px){
+    #menu{
+        height: auto;
+    }
+}

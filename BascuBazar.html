@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Bascu Bazar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="border">
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid bg-dark">
+
+                <div class="jumbotron-background">
+                    <img src="img/fondo copy.jpg" class="blur ">
+                </div>
+
+                <div class="container text-white">
+
+                    <h1 class="display-4">Bienvenidos!</h1>
+                    <p class="lead">En esta pagina encontraras todo lo que buscas de bazar
+                        y muchos más!</p>
+                    <hr class="my-4">
+                    <p>En caso de que quieras recibir nuestro newsletter con novedades, registrate acá:</p>
+                    <nav class="navbar">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Correo Electronico"
+                                aria-label="Search">
+                        </form>
+                    </nav>
+                    <button id="button-newsletter" class="btn my-sm-0" type="submit">Ingresar</button>
+                </div>
+                <!-- /.container -->
+            </div>
+
+            <div id="logo" class="col-12">
+                <img class="imgB1" src="img/PNG 300-02.png">
+            </div>
+
+            <nav id="header" class="navbar sticky-top navbar-expand-lg ">
+                <a id="name-bazar" class="navbar-brand" style="margin-left: 30px;" href="#">Bascu BAZAR</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="navbarSupported" class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    INICIO
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Bazar</a></li>
+                                    <li><a class="dropdown-item" href="#">Organizacion</a></li>
+                                    <li><a class="dropdown-item" href="#">Limpieza</a></li>
+                                    <li><a class="dropdown-item" href="#">Textil</a></li>
+                                    <li><a class="dropdown-item" href="#">Mates</a></li>
+                                    <li><a class="dropdown-item" href="#">Jugueteria</a></li>
+                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="#">Farmacia</a></li>
+                                    <li><a class="dropdown-item" href="#">Navidad</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Lo mas visto</a></li>
+                                    <li><a class="dropdown-item" href="#">Lo nuevo!</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li class="nav-item">
+                            <a id="usados" class="nav-link" href="#">USADOS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a id="contacto" class="nav-link" href="#">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form id="search" class="form-inline my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Que estas buscando?"
+                            aria-label="Search">
+                    </form>
+                    <button id="button-search" class="btn btn-outline-secondary my-sm-0" type="submit">Buscar</button>
+                </div>
+            </nav>
+            <section id="content" class="col-12">
+                <div class="row">
+                    <section id="products" class="col-12 col-sm-12 col-md-9 border">
+                        <h2>Inicio</h2>
+                        <h4>Lo mas vendido</h4>
+                        <hr>
+                        <div class="items">
+                            <!-- Catalogo de productos  -->
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/animalesmacetas.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Macetas</h5>
+                                        <p class="card-text">Algunas personas usan macetas normales. Sabemos que este no
+                                            es tu caso. Comprala.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/jarroazul.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Tazon Mug</h5>
+                                        <p class="card-text">Ideal para regalar o para tomarse un buen cafe con lluvia
+                                            de fondo.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/vasotermicoverde.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Vaso termico</h5>
+                                        <p class="card-text">Para esos picnics en el parque. Sabemos que lo queres. Es
+                                            re canchero, como vos.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/automate-rapimate1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Rapimate</h5>
+                                        <p class="card-text">Auto mate para los que no tenemos tiempo de andar llevando
+                                            un termo a todos lados. O de convidar.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/funda-almohadon1.JPG" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Funda de Almohadon</h5>
+                                        <p class="card-text">Funda de felpa. Un detallazo de regalo.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/mate-madera-rosa.JPG" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Mates de madera</h5>
+                                        <p class="card-text">Mate de madera con diferentes colores. Combina con la
+                                            bombilla. Re top.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card " style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/organizador-cajon1.jpeg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Organizador de cajon</h5>
+                                        <p class="card-text">Pone orden en tu vida. Comenza con tus cajones ;)</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/soporte-colgante-bolsa-basura2.jpeg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Soporte colgante</h5>
+                                        <p class="card-text">Soporte colgante para bolsas de residuos.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/squishy-ardilla-1.JPG" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Squishy Ardilla</h5>
+                                        <p class="card-text">Juguete para niños. Diferentes colores de ardillas.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h4>Lo nuevo</h4>
+                            <hr>
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card " style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/mate-facetado-neo.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Mate Facetado</h5>
+                                        <p class="card-text">Mate con texturas faceteadas. Diferentes colores para
+                                            elegir tomar con estilo.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/tortuga-peluche.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Tortuga para niños</h5>
+                                        <p class="card-text">Se trata de un producto especial para niños. Incluye sonido
+                                            y luces.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/yerbera-azucarera.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Yerbera/Azucarera</h5>
+                                        <p class="card-text">Yerbera y azucarera de plastico con detalles en diferentes
+                                            colores.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card " style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/mate-madera-violeta2.JPG" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Mate de madera violeta</h5>
+                                        <p class="card-text">Nuevo ingreso de mates de madera.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/automate-rapimate4.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Rapi mate</h5>
+                                        <p class="card-text">Nuevo ingreso de mates autocebables.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/jarroazul.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Jarron mug</h5>
+                                        <p class="card-text">Jarra de tipo mug con diferentes colores para elegir.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rowcard" class="row justify-content-around mt-4 mb-4">
+                                <div class="card " style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/organizador-cajon1.jpeg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Organizador de cajon</h5>
+                                        <p class="card-text">Pone orden en tu vida. Comenza con tus cajones ;)</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/soporte-colgante-bolsa-basura2.jpeg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Soporte colgante</h5>
+                                        <p class="card-text">Soporte colgante para bolsas de residuos.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 17.3rem;">
+                                    <img class="card-img-top" src="img/squishy-ardilla-1.JPG" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight: bolder">Squishy Ardilla</h5>
+                                        <p class="card-text">Juguete para niños. Diferentes colores de ardillas.</p>
+                                        <p class="card-text" style="color: gray">Precio: $500</p>
+                                        <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                        <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <aside class="col border d-none d-sm-none d-md-block">
+                        <h2>Descuentos</h2>
+                        <hr>
+                        <div id="card-aside" class="card" style="width: 17.3rem; ">
+                            <img class="card-img-top" src="img/Laundry-room-cesto.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bolder">Cesto de ropa sucia</h5>
+                                <p class="card-text">Cesto para ropa sucia. Manter el orden, sin perder el estilo.</p>
+                                <p class="card-text" style="color: gray">Precio: $500</p>
+                                <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                            </div>
+                        </div>
+                        <div id="card-aside" class="card" style="width: 17.3rem;">
+                            <img class="card-img-top" src="img/organizador-zapatos-calzado2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bolder">Organizador de calzado</h5>
+                                <p class="card-text">Producto de plastico con varios colores para elegir.</p>
+                                <p class="card-text" style="color: gray">Precio: $500</p>
+                                <a href="#" id="button" class="btn btn-primary">Comprar</a>
+                                <a href="#" id="button-view" class="btn btn-secondary">Ver producto</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <h2>Promos bancarias</h2>
+                        <hr>
+
+                    </aside>
+                </div>
+            </section>
+
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="text-muted">© 2021 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <i class="fa fa-youtube-square"></i>
+                    <button class="btn btn-linkedin"><i class="fa fa-linkedin"></i></button>
+                </ul>
+            </footer>
+
+            <!-- 
+                <div class="wrap">
+                    
+                    <div id="menu_footer">
+                        <h5>Menú</h5>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Usados</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div id="info">
+                        <h5>Desarrollado con</h5>
+                        <p>
+                            <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png"
+                                alt="Creado con HTML y CSS" />
+                        </p>
+                        <h5>Optimizado para</h5>
+                        <p id="browsers">
+                            <a href="#">
+                                <img src="img/firefox-icon.png" alt="Firefox" title="Firefox" />
+                            </a>
+                            <a href="#">
+                                <img src="img/chrome.png" alt="Chrome" title="Chrome" />
+                            </a>
+                            <a href="#">
+                                <img src="img/Opera_256x256.png" alt="Opera" title="Opera" />
+                            </a>
+                            <a href="#">
+                                <img src="img/safari.png" alt="Safari" title="Safari" />
+                            </a>
+                            <a href="#">
+                                <img src="img/android.png" alt="Android" title="Android" />
+                            </a>
+                            <a href="#">
+                                <img src="img/ios.png" alt="Ios" title="Ios" />
+                            </a>
+                        </p>
+                        <h5>AUTOR</h5>
+                        <p>&copy; Juan Bascu WEBs </p>
+                    </div>
+                </div>
+                -->
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(function () { objectFitImages() });
+    </script>
+
+</body>
+
+</html>
